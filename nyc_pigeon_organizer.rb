@@ -6,8 +6,8 @@ def nyc_pigeon_organizer(data)
      names.each do |name|
        if !name_hash[name]
          name_hash[name] = []
-         binding.pry
        end
+       if !name_hash[name]
    end
   end
  end
